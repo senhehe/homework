@@ -71,7 +71,7 @@ import java.io.IOException;
  *  @version $Id$
 */
 
-public class Kwic{
+public class KWIC{
 
 //----------------------------------------------------------------------
 /**
@@ -629,7 +629,7 @@ public class Kwic{
  */
 
   public static void main(String[] args){
-    Kwic kwic = new Kwic();
+    KWIC kwic = new KWIC();
     if(args.length != 1){
       System.err.println("KWIC Usage: java kwic.ms.KWIC file_name");
       System.exit(1);
